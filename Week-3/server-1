@@ -1,0 +1,15 @@
+import rpyc
+
+class Fibonacci(rpyc.Service):
+    
+        def on_connect(self, conn):
+            pass
+    
+        def on_disconnect(self, conn):
+            pass
+    
+        def exposed_fibonacci(self, n):
+            if n <= 1:
+                return n
+            else:
+                return (self.exposed_fibonacci(n-1) + self.exposed_fibonacci(n-2))
