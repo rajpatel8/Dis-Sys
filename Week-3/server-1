@@ -1,9 +1,9 @@
 import rpyc
 
-class Fibonacci(rpyc.Service):
+class fibonacci(rpyc.Service):
     
         def on_connect(self, conn):
-            pass
+            pass  
     
         def on_disconnect(self, conn):
             pass
