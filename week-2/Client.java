@@ -12,7 +12,7 @@ public class Client {
         pw.println("Sample.txt");
         
         // Open input stream and read from file
-        FileInputStream fileIn = new FileInputStream("/Users/aj/Desktop/Destro/week-2/Sample.txt");
+        FileInputStream fileIn = new FileInputStream("/Users/aj/Desktop/Destro/LAB/week-2/Sample.txt");
         byte[] buffer = new byte[1024];
         int bytesRead;
         while ((bytesRead = fileIn.read(buffer)) != -1) {
