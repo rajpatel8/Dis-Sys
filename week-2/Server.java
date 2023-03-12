@@ -24,6 +24,13 @@ public class Server {
         fileOut.close();
         System.out.println("File received");
         
+        // // print file contents
+        // BufferedReader fileReader = new BufferedReader(new FileReader(fileName));
+        // String line;
+        // while ((line = fileReader.readLine()) != null) {
+        //     System.out.println(line);
+        // }
+        
         // Close connections
         br.close();
         in.close();

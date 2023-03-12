@@ -22,8 +22,7 @@ public class CalculatorClient {
 
 			// Making a Loop
 			while (true) {
-				System.out.println(
-				//	"Enter the operation in the form operand operator operand");
+				System.out.println("Enter the operation in the form operand operator operand");
 				System.out.println("Example 3 + 5 ");
 				String inp = sc.nextLine();
 
